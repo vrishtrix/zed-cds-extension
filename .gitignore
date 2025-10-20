@@ -1,0 +1,9 @@
+# Rust specific
+/target/
+
+# Cargo
+Cargo.lock
+
+# Operating System
+.DS_Store
+Thumbs.db

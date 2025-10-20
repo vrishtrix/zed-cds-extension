@@ -1,0 +1,7 @@
+id = "cds"
+name = "SAP CDS"
+version = "0.0.1"
+schema_version = 1
+authors = ["Vrishin Patel <vrishin_patel@outlook.com>"]
+description = "Language support for SAP Core Data Services (CDS) used in SAP Cloud Application Programming Model (CAP)"
+repository = "https://github.com/vrishtrix/zed-cds-extension"
