@@ -1,5 +1,5 @@
 name = "Core Data Services"
 grammar = "cds"
-path_suffixes = ["cds"]
+path_suffixes = ["cds", "cdl"]
 line_comments = ["// "]
 hard_tabs = true
