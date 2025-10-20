@@ -7,3 +7,7 @@ Cargo.lock
 # Operating System
 .DS_Store
 Thumbs.db
+
+# Zed Extensions
+*.wasm
+/grammars/
