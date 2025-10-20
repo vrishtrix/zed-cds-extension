@@ -1,0 +1,5 @@
+name = "Core Data Services"
+grammar = "cds"
+path_suffixes = ["cds"]
+line_comments = ["// "]
+hard_tabs = true

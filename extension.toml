@@ -1,7 +1,15 @@
 id = "cds"
-name = "SAP CDS"
+name = "SAP Core Data Services"
 version = "0.0.1"
 schema_version = 1
 authors = ["Vrishin Patel <vrishin_patel@outlook.com>"]
 description = "Language support for SAP Core Data Services (CDS) used in SAP Cloud Application Programming Model (CAP)"
 repository = "https://github.com/vrishtrix/zed-cds-extension"
+
+[grammars.cds]
+repository = "https://github.com/cap-js-community/tree-sitter-cds"
+rev = "2d5c5005470a58038e6ec53fedd9a5cee2d5b7d1"
+
+[language_servers.cds-lsp]
+name = "CDS Language Server"
+languages = ["Core Data Services"]
