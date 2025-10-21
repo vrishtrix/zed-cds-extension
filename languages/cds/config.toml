@@ -2,4 +2,18 @@ name = "Core Data Services"
 grammar = "cds"
 path_suffixes = ["cds", "cdl"]
 line_comments = ["// "]
-hard_tabs = true
+block_comments = [["/*", "*/"]]
+hard_tabs = false
+tab_size = 2
+
+# Automatic bracket/quote closing
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = false },
+  { start = "(", end = ")", close = true, newline = false },
+  { start = "'", end = "'", close = true, newline = false, not_in = ["string", "comment"] },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+]
+
+# Auto-indent after these patterns
+autoclose_before = ";,=])}"
